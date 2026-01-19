@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+} 
+body{
+    background-color: #1A0B2E ;
+}
+/* navbar related style */
+.nav-container{
+    max-width: 1600px;
+    height: 92px;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-Left h1{
+    color: white;
+    
+}
+.nav-Left h1 span{
+    background: linear-gradient(rgba(251, 9, 180, 1), rgba(145, 0, 248, 1), rgb(245, 234, 109));
+    -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.nav-container>.nav-p{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.nav-container .btn-1{
+    width: 135px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(45deg,rgb(245, 234, 109),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    border-radius: 20px;
+    cursor: pointer;
+    
+
+}
+/* banner section related some style */
+ 
+.banner-container .bg{
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 760px;
+    border: 2px solid green;
+    background-image: url("./assets/hero-bg.png");
+    justify-items: center;
+}
+
+.img-section{
+    padding-top: 101px;
+}
+.img-section>.circle{
+    position: relative;
+       
+}
+.img-section>.microphone{
+    width: 120px;
+    position: absolute;
+    z-index: 2;
+    top: 33%;
+    left: 47%;
+    
+}
+.img-section button{
+    
+    font-size: 30px;
+    position: absolute;
+    left: 55%;
+    top: 27%;
+    background-color: #00FF88;
+    border-radius: 30px;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+
+}
+.img-section .new{
+    width: 120px;
+}
+    
