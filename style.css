@@ -150,9 +150,41 @@ body{
     margin-right: 10px;
     vertical-align: middle;
 }
+/* about related style */
+.about-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 2px solid white;
+  
+
+    
+}
+.about-container .about-info{
+    text-align: center;
+    color: white
+
+}
+.about-info h1{
+    font-size: 41px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px
+    
+
+}
+.about-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff9a;
+    margin: 50px;
 
 
-
+}
+.about-info span{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 
 
