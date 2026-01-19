@@ -13,11 +13,12 @@ body{
 .nav-container{
     max-width: 1600px;
     height: 92px;
-    /* border: 2px solid green; */
+    /* border: 1px solid rgb(98, 99, 98); */
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
     
 }
 .nav-Left h1{
@@ -48,13 +49,16 @@ body{
     
 
 }
+.btn-1 img{
+    vertical-align: middle;
+}
 /* banner section related some style */
  
 .banner-container .bg{
     max-width: 1600px;
     margin: 0 auto;
     height: 760px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     background-image: url("./assets/hero-bg.png");
     justify-items: center;
 }
@@ -90,3 +94,54 @@ body{
     width: 120px;
 }
     
+.banner-container .font-container{
+    align-content: center;
+}
+.font-container{
+    text-align: center;
+    margin-top: 50px;
+}
+.font-container h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 600;
+}
+.font-container p{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.font-container .bg-button-1{
+    width: 201px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(45deg,rgb(245, 234, 109),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.bg-button-1 img{
+    border: 1px solid white;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+    
+    
+}
+.font-container .bg-button-2{
+    width: 147px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+}
+.bg-button-2 img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
