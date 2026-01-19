@@ -52,6 +52,11 @@ body{
 .btn-1 img{
     vertical-align: middle;
 }
+
+.nav-container .span-2{
+    display: none;
+
+}
 /* banner section related some style */
  
 .banner-container .bg{
@@ -144,4 +149,73 @@ body{
 .bg-button-2 img{
     margin-right: 10px;
     vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code */
+@media screen and (max-width:576px) {
+ .nav-container .nav-p{
+    display: none;
+ }
+    .btn-1 {
+        display: none;
+    }
+   .nav-container .span-2{
+    display: inline;
+   }
+   .banner-container .bg {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    .img-section {
+        width: 100%;
+        position: relative;
+        margin-bottom: 30px; 
+    }
+    .font-container p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+    .circle
+        {
+        width: 80%; 
+        height: auto;
+    }
+    .img-section>.microphone{
+        width: auto; 
+        height: auto;
+       top: 40%;
+       left: 39%;
+       
+    }
+    .img-section button{
+        width: auto;
+        height: auto;
+        left: 75%;
+        top: 27%;
+    }
+    .bg-button-1, .bg-button-2 {
+        width: 100%;   
+        
+        
+    }
+    
 }
