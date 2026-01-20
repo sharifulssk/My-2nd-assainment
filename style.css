@@ -23,13 +23,15 @@ body{
 }
 .nav-Left h1{
     color: white;
+    font-size: 48px;
     
 }
 .nav-Left h1 span{
     background: linear-gradient(rgba(251, 9, 180, 1), rgba(145, 0, 248, 1), rgb(245, 234, 109));
     -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 48px;
 }
 .nav-container>.nav-p{
     display: flex;
@@ -489,5 +491,39 @@ body{
         width: 400px;
         height: 278px;
     }
+    .Media{
+        margin-top: 1000px;
+        
+    }
+    .video-container
+    {
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        
+    }
+    
+    .host-section{
+    flex-direction: column; 
+    text-align: center;     
+    padding: 24px;  
+    width: 400px;
+    height: 480px;        
+  }
+  .host-img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  .host-info{
+    margin-top: 0;
+  }
+  .host-info img{
+    margin-bottom: 20px;
+  }
+ 
+  
     
 }
