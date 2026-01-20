@@ -288,20 +288,23 @@ body{
 .Media{
     max-width: 1600px;
     margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+}
+.video-heading h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .video-container{
-    display: flex;
-   justify-content: space-between;
-   gap: 10px;
-   justify-items: center;
+   display: flex;
+   justify-content: space-around;
+    gap: 10px;
+   
    
 }
-.video-container .heading{
-    display: flex;
-    justify-content: center;
-    
-    
-}
+
  .video-container .video-1{
     border-radius: 20px;
     width: 380px;
