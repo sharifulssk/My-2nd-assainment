@@ -353,17 +353,48 @@ body{
 }
 .video-1 .video-2, .video-3, span img{
     margin-right: 10px;
+    margin-top: 10px;
 }
 .video-1, .video-2, .video-3, video{
    width: 380px;
    height: 214px; 
    border-radius: 10px;
 }
+/* host related style */
+.host-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-items: center;
+    margin-top: 100px;
+}
+.host-container .host-heading h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.host-section{
+    display: flex;
+    width: 1200px;
+    height: 280px;
+    background-color: #4b208379;
+    border-radius: 30px;
 
+}
+.host-img{
+    margin: 40px;
+}
+.host-info{
+    margin-top: 30px;
+}
+.host-info img{
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 1px solid gray;
+   padding: 10px;
+   border-radius: 50%;
 
-
-
-
+    
+}
 
 
 
